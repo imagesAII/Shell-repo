@@ -16,6 +16,10 @@
 
 #if [ $sal -lt 30000 ] && [ $sal -gt 10000 ];then
 #echo "No tax"
+elif [ $sal -eq 30000 ];then
+#dedu=$(($sal * 5 / 100))
+#redu_sal=$(($sal - $dedu))
+#echo "Salary after 5% reduction is : $redu_sal"
 #elif [ $sal -gt 30000 ] && [ $sal -le 40000 ];then
 #dedu=$(($sal * 10 / 100))
 #redu_sal=$(($sal - $dedu))
